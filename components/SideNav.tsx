@@ -5,11 +5,7 @@ import Link from 'next/link';
 const items = [
   {
     title: 'Get started',
-    links: [{href: '/docs', children: 'Overview'}],
-  },
-  { // New section for your page
-    title: 'gopaddi', // Replace with your desired section title
-    links: [{ href: '/docs/newPage', children: 'gopaddi' }] // Link to your page
+    links: [{href: '/docs', children: 'Overview'}, { href: '/docs/newPage', children: 'gopaddi' }],
   }
 ];
 
@@ -55,6 +51,7 @@ export function SideNav() {
           li {
             list-style: none;
             margin: 0;
+            padding-top: 5px;
           }
           li :global(a) {
             text-decoration: none;
