@@ -7,6 +7,10 @@ const items = [
     title: 'Get started',
     links: [{href: '/docs', children: 'Overview'}],
   },
+  { // New section for your page
+    title: 'gopaddi', // Replace with your desired section title
+    links: [{ href: '/docs/newPage', children: 'gopaddi' }] // Link to your page
+  }
 ];
 
 export function SideNav() {
