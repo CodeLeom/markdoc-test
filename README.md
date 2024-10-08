@@ -31,6 +31,11 @@ You can start editing the page by modifying `index.md`. The page auto-updates as
 To contribute to this documentation page, create a new branch, and make your PR to the dev branch. Any PR to the Main branch will be rejected.
 {% /callout %}
 
+To add a new page, go to the docs folder (placed inside the pages folder), create a new `.md` file with your desired title, populate with the content and save.
+
+To add the page to the page, go to the component folder, open the `sideNav` component, then add it as a children to the `get started` array. 
+
+Test locally, and if your changes is fine, make the push to the dev branch and raise a PR.
 
 ## Deploy
 
