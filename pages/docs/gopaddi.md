@@ -7,17 +7,21 @@ description: gopaddi documentation page
 
 ## Create beautiful REST API docs in Markdown
 
+{% callout title="Hey you!" icon="note" %}
+I have a message for you
+{% /callout %}
+
 `POST:`/(overwrites all in-memory stub and/or proxy-config)
 
 ##### Parameters
 
-{% table bordered=true %}
+{% table %}
 | name      | type     | data type               | description                                                           |
 |-----------|----------|-------------------------|-----------------------------------------------------------------------|
 | None      | required | object (JSON or YAML)   | N/A  |
 {% /table %}
 
-{% table bordered=true %}
+{% table %}
 | Column 1 | Column 2 | Column 3 |
 |:---|:---|:---|
 | Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 |
@@ -26,7 +30,7 @@ description: gopaddi documentation page
 
 ##### Responses
 
-{% table bordered=true %}
+{% table %}
 | http code | content-type                | response                                                            |
 |-----------|-----------------------------|---------------------------------------------------------------------|
 | `201`     | `text/plain;charset=UTF-8`  | `Configuration created successfully`                                |
@@ -52,7 +56,7 @@ Get: (gets all in-memory stub & proxy configs)
 
 ##### Responses
 
-{% table bordered=true %}
+{% table %}
 | http code | content-type                | response                                                            |
 |-----------|-----------------------------|---------------------------------------------------------------------|
 | `200`     | `text/plain;charset=UTF-8`  | YAML string                                                         |
@@ -76,7 +80,7 @@ GET: /{stub_numeric_id}
 
 ##### Parameters
 
-{% table bordered=true %}
+{% table %}
 | name              | type     | data type  | description                         |
 |-------------------|----------|------------|-------------------------------------|
 | `stub_numeric_id` | required | int ($int64)| The specific stub numeric id        |
@@ -84,7 +88,7 @@ GET: /{stub_numeric_id}
 
 ##### Responses
 
-{% table bordered=true %}
+{% table %}
 | http code | content-type                | response                                                            |
 |-----------|-----------------------------|---------------------------------------------------------------------|
 | `200`     | `text/plain;charset=UTF-8`  | YAML string                                                         |
