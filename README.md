@@ -27,9 +27,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `index.md`. The page auto-updates as you edit the file.
 
 ## Contribute
-{% callout type="note" %}
-To contribute to this documentation page, create a new branch, and make your PR to the dev branch. Any PR to the Main branch will be rejected.
-{% /callout %}
+> To contribute to this documentation page, create a new branch, and make your PR to the dev branch. Any PR to the Main branch will be rejected.
+
 
 To add a new page, go to the docs folder (placed inside the pages folder), create a new `.md` file with your desired title, populate with the content and save.
 
@@ -48,5 +47,3 @@ The quickest way to deploy your own version of this boilerplate is by deploying 
 ### Deploy to Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/next.js-starter)
-
-## Contribute
